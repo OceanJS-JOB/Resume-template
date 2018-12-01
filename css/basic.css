@@ -1,4 +1,12 @@
 body {
-  font-size: 34px;
-  font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    margin-bottom: 160px;
+}
+
+.card-body {
+    text-transform: uppercase;
 }
