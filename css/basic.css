@@ -1,20 +1,40 @@
+html {
+    font-size: 16px;
+}
 body {
-    font-size: 34px;
     font-family: "Open Sans", sans-serif;
 }
 
-.personal-info {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.person__info {
     background-color: #2b5a84;
     color: #fbf6f6;
-    padding: 100px 0 150px 0;
+    padding: 110px 110px 150px;
 }
 
-.personal-info .card {
-    background-color: #2b5a84;
-    margin-bottom: 160px;
-    padding: 0 100px;
+.person__photo {
+    max-width: 80%;
+    margin: 0 auto 40px;
+    display: block;
 }
 
-.personal-info .card-body {
+.person__descr {
     text-transform: uppercase;
+}
+
+.person__descr_name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.person__descr_prof {
+    font-size: 1.6rem;
 }
