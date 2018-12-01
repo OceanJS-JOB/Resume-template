@@ -3,10 +3,18 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-.card {
-    margin-bottom: 160px;
+.personal-info {
+    background-color: #2b5a84;
+    color: #fbf6f6;
+    padding: 100px 0 150px 0;
 }
 
-.card-body {
+.personal-info .card {
+    background-color: #2b5a84;
+    margin-bottom: 160px;
+    padding: 0 100px;
+}
+
+.personal-info .card-body {
     text-transform: uppercase;
 }
