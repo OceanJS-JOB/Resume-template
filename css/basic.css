@@ -1,4 +1,20 @@
 body {
-  font-size: 34px;
-  font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.personal-info {
+    background-color: #2b5a84;
+    color: #fbf6f6;
+    padding: 100px 0 150px 0;
+}
+
+.personal-info .card {
+    background-color: #2b5a84;
+    margin-bottom: 160px;
+    padding: 0 100px;
+}
+
+.personal-info .card-body {
+    text-transform: uppercase;
 }
