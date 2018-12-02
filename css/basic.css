@@ -2,7 +2,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-}	
+}
 
 h1,
 h2,
@@ -48,14 +48,14 @@ h6 {
 }
 .education_block {
 	margin-bottom: 70px;
-	
+
 }
 .education_block__date {
-	
+
 	vertical-align: top;
 }
 .education_block__text {
-	
+
 }
 .skill {
 	margin-bottom: 105px;
@@ -69,11 +69,11 @@ h6 {
 }
 .skill_block {
 	margin-bottom: 30px;
-	
+
 }
 .skill_block__name {
 	display: inline-block;
-	
+
 }
 .skill_block__value {
 	width: 80%;
@@ -94,5 +94,76 @@ progress::-moz-progress-bar {
 
 .skill_block span {
 	margin-left: 22px;
-	
+
 }
+/*# animate social icon */
+.social_link {
+	width: 100%;
+	padding: 10% 0;
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.social {
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	padding: 8px;
+	border-radius: 100%;
+	background-color: white;
+	margin: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.social svg {
+	-webkit-transition: -webkit-transform 0.5s ease-out;
+	transition: -webkit-transform 0.5s ease-out;
+	transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.social:hover {
+	border-radius: 10%;
+	-webkit-transform: rotate(405deg);
+	transform: rotate(405deg);
+}
+
+.social:hover svg {
+	-webkit-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+
+.facebook {
+	fill: #3b5998;
+}
+
+.facebook:hover {
+	fill: white;
+	background: #3b5998;
+}
+
+.twitter {
+	fill: #4099FF;
+}
+
+.twitter:hover {
+	fill: white;
+	background: #4099FF;
+}
+
+.linkedin {
+	fill: #0077b5;
+}
+
+.linkedin:hover {
+	fill: white;
+	background: #0077b5;
+}
+
+/*# animate social icon */
