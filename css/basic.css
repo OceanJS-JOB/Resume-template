@@ -1,9 +1,9 @@
-html {
-    font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
-    font-family: "Open Sans", sans-serif;
-}
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}	
 
 h1,
 h2,
@@ -37,4 +37,63 @@ h6 {
 
 .person__descr_prof {
     font-size: 1.6rem;
+}
+
+.education {
+	margin-top: 50px;
+	margin-bottom: 105px;
+}
+.education_title {
+	font-size: 32px;
+	margin-bottom: 70px;
+}
+.education_block {
+	margin-bottom: 70px;
+	
+}
+.education_block__date {
+	
+	vertical-align: top;
+}
+.education_block__text {
+	
+}
+.skill {
+	margin-bottom: 105px;
+}
+.skill_title {
+	font-size: 32px;
+	margin-bottom: 70px;
+}
+.skill_text {
+	margin-bottom: 40px;
+}
+.skill_block {
+	margin-bottom: 30px;
+	
+}
+.skill_block__name {
+	display: inline-block;
+	
+}
+.skill_block__value {
+	width: 80%;
+	color: #4c9be0;
+	background-color: #dedede;
+	border: 0;
+	height: 1em;
+}
+progress::-webkit-progress-bar {
+ background-color: rgba(255, 255, 255, .13);
+}
+progress::-webkit-progress-value {
+  background: #4c9be0;
+}
+progress::-moz-progress-bar {
+  color: #4c9be0;
+}
+
+.skill_block span {
+	margin-left: 22px;
+	
 }
