@@ -76,20 +76,19 @@ h6 {
 
 }
 .skill_block__value {
+	position: relative;
+	display: inline-block;
 	width: 80%;
-	color: #4c9be0;
 	background-color: #dedede;
 	border: 0;
 	height: 1em;
+	transition:0.1s linear;
+	transition-property:width, background-color;
 }
-progress::-webkit-progress-bar {
- background-color: rgba(255, 255, 255, .13);
-}
-progress::-webkit-progress-value {
-  background: #4c9be0;
-}
-progress::-moz-progress-bar {
-  color: #4c9be0;
+.skill_block__bar {
+	background-color: #4c9be0;
+	height: 1em;
+	width: 0;
 }
 
 .skill_block span {
